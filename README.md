@@ -7,6 +7,26 @@ Dependencies
 ------------
 You need download the whole main folder "Dual-target-inhibitors-generating-workflow" (the zip file is not need, which is the datafile for the paper reproducing) with its child folders, all the folders and files need to keep the relative path like this Git reporitory. The Anaconda, MGLTools-1.5.6, and Autodock Vina are needed as dependencies.
 
+If fortunately, all of the dependencies (except Anaconda, MGLTools-1.5.6, and Autodock Vina) needed by this workflow will be automatically installed by the script dual_target_drug_prepare_traning_generating_analysis_workflow.py. If unfortunately, you shoud creat two conda env named as : 3D_Scaffold_test and MPerformer_test.
+
+1. Create 3D_Scaffold_test conda env:
+```bash
+   conda create -n 3D_Scaffold_test python=3.8 numpy=1.23.5 pytorch=1.5.1 torchvision cudatoolkit=10.2 ase=3.19.0 openbabel=3.1.1 rdkit=2019.09.2.0 requests matplotlib seaborn scikit-learn -c pytorch -c openbabel -c defaults -c conda-forge
+   conda run -n 3D_Scaffold_test pip install 'schnetpack==0.3'
+   cp ./times*.ttf ~/anaconda3/envs/3D_Scaffold_03/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/
+   ```
+2. Create MPerformer_test conda env:
+```bash
+   conda create -n MPerformer_test python=3.9 pytorch=2.0 torchvision cudatoolkit=11.7 ase openbabel -c pytorch -c openbabel -c defaults -c conda-forge
+   (download_file https://github.com/dptech-corp/Uni-Core/releases/download/0.0.3/unicore-0.0.1+cu117torch2.0.0-cp39-cp39-linux_x86_64.whl)
+   conda run -n MPerformer_test pip install ./unicore-0.0.1+cu117torch2.0.0-cp39-cp39-linux_x86_64.whl
+   conda run -n MPerformer_test pip install rdkit-pypi==2021.9.4
+   conda run -n MPerformer_test pip install dpdata
+   conda run -n MPerformer_test pip install torch==2.0 torchvision torchaudio
+   conda run -n MPerformer_test pip install pandas
+   conda run -n MPerformer_test pip install scikit-learn
+   conda run -n MPerformer_test pip install numpy
+```
 
 
 Quick Start
