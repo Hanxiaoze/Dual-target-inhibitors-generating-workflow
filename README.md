@@ -37,6 +37,8 @@ If you have solved the Conda env manually, you can just use the script `dual_tar
 
 Please download the [MPerformer-checkpoint](https://drive.google.com/file/d/1sHWm1xOy0I8_R50dPANfMUXoRQkoPCBJ/view?usp=drive_link) and place it to the fold `./MPerformer-master/weight`
 
+In short, the workflow can be run by just two ways:
+
 ```bash
    python dual_target_drug_prepare_traning_generating_analysis_workflow.py
    python dual_target_drug_prepare_traning_generating_analysis_workflow_manu_solve_conda_env.py
