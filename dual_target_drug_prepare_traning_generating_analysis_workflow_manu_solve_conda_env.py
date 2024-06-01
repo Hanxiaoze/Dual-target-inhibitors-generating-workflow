@@ -30,7 +30,7 @@ absolute_work_dir_path = os.path.abspath(work_dir)
 
 absolute_Mperformer_path = os.path.abspath('./MPerformer-master')
 
-absolute_cG_SchNet_path = os.path.abspath('./cG-SchNet-main')
+absolute_cG_SchNet_path = os.path.abspath('./cG-SchNet_main')
 
 os.chdir(f"{absolute_work_dir_path}")
 
