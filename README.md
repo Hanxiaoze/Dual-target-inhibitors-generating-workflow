@@ -5,7 +5,7 @@
 
 Dependencies
 ------------
-You need download the whole main folder "Dual-target-inhibitors-generating-workflow" (the zip file is not need, which is the datafile for the paper reproducing) with its child folders, all the folders and files need to keep the relative path like this Git reporitory. The Anaconda, MGLTools-1.5.6, and Autodock Vina are needed as dependencies.
+You need download the whole main folder `Dual-target-inhibitors-generating-workflow` (the zip file is not need, which is the datafile for the paper reproducing) with its child folders, all the folders and files need to keep the relative path like this Git reporitory. The Anaconda, MGLTools-1.5.6, and Autodock Vina are needed as dependencies.
 
 If fortunately, all of the dependencies (except Anaconda, MGLTools-1.5.6, and Autodock Vina) needed by this workflow will be automatically installed by the script dual_target_drug_prepare_traning_generating_analysis_workflow.py. If unfortunately, you shoud creat two conda env named as : 3D_Scaffold_test and MPerformer_test.
 
