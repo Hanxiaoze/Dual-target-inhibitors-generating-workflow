@@ -11,7 +11,9 @@ You need download the whole main folder "Dual-target-inhibitors-generating-workf
 
 Quick Start
 ------------
-The script dual_target_drug_prepare_traning_generating_analysis_workflow.py is the main interface, it will automatically solve and creat Conda env and call other script to run and the whole workflow. The absolute paths of MGLToolsPckgs and Vinna_bin_path are need to change with your installing path. If you have solved the Conda env manually, you can just use the script dual_target_drug_prepare_traning_generating_analysis_workflow_manu_solve_conda_env.py to run the whole workflow.
+The script dual_target_drug_prepare_traning_generating_analysis_workflow.py is the main interface, it will automatically solve and creat Conda env and call other script to run and the whole workflow. The absolute paths of MGLToolsPckgs and Vinna_bin_path are need to change with your installing path. 
+
+If you have solved the Conda env manually, you can just use the script dual_target_drug_prepare_traning_generating_analysis_workflow_manu_solve_conda_env.py to run the whole workflow.
 
 
 
