@@ -15,6 +15,8 @@ The script dual_target_drug_prepare_traning_generating_analysis_workflow.py is t
 
 If you have solved the Conda env manually, you can just use the script dual_target_drug_prepare_traning_generating_analysis_workflow_manu_solve_conda_env.py to run the whole workflow.
 
+The PDB files target_protein_1.pdb and target_protein_2.pdb are the 3D structures of the two target-proteins which are used as docking receptors, they should be changed to your target-proteins PDB files according to your researching project. The files config_1.txt and config_2.txt are two docking configuration files for target_protein_1 and target_protein_2 respectively, they definite the docking pocket sites of two target-proteins. The files times.ttf, timesi.ttf, timesbi.ttf, timesbd.ttf are the font files to set the matplotlib figure plotting font, the need to be placed to the right place of the corresponding Conda env (~/anaconda3/envs/3D_Scaffold_test/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/).
+
 
 
 Reference
