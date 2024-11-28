@@ -53,7 +53,7 @@ The files `times.ttf`, `timesi.ttf`, `timesbi.ttf`, `timesbd.ttf` are the font f
 Data for research reproducing
 --------
 1. [zip files for research reproducing of our paper of training and generating process](https://drive.google.com/drive/folders/1WnKOa9ul7w6HpIXFdSPEOsk43Ec5tr0i?usp=sharing)
-2. [zip files for research reproducing of our paper of MD simulations](https://pan.baidu.com/s/18DbmaKho242RSxJ-cbmrPg?pwd=8888)
+2. [all files for research reproducing of our paper of MD simulations and MM-GBSA calculations](https://pan.baidu.com/s/18DbmaKho242RSxJ-cbmrPg?pwd=8888)
 
 Reference
 --------
